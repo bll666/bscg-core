@@ -1,0 +1,14 @@
+{
+  "dataset": "cowbase", "points": 12, "channels": 1,
+  "continuous_channels": [0], "static_features": 15,
+  "history_days": 7, "segment_points": 2, "max_gap": 0,
+  "input_start": "2017-01-07", "fit_end": "2018-06-29",
+  "validation_start": "2018-07-01", "validation_end": "2018-12-29",
+  "refit_end": "2018-12-29", "target_start": "2019-01-01", "target_end": "2019-12-31",
+  "learning_rates": [0.0003, 0.001], "selection_seed": 17,
+  "seeds": [17,43,101], "max_epochs": 40, "patience": 7,
+  "batch_size": 1024, "inference_batch_size": 2048,
+  "weight_decay": 0.001, "min_improvement": 0.0001,
+  "auxiliary_weight": 0.02, "noise_sd": 0.02, "temperature": 0.2,
+  "permutations": 20
+}

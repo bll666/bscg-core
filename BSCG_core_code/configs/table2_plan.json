@@ -1,0 +1,12 @@
+{
+  "datasets": [
+    {"config": "mmcows.json", "data": "../local_data/mmcows.npz"},
+    {"config": "cowbase.json", "data": "../local_data/cowbase.npz"}
+  ],
+  "prediction_files": [
+    "../runs/mm_loco/predictions.csv",
+    "../runs/mm_time/predictions.csv",
+    "../runs/mm_cow_time/predictions.csv",
+    "../runs/cowbase/predictions.csv"
+  ]
+}

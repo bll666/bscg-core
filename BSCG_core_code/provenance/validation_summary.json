@@ -1,0 +1,28 @@
+{
+  "cpu_pipeline": {
+    "passed": true,
+    "python": "3.9.21",
+    "torch": "2.0.1",
+    "numpy": "1.24.4",
+    "unit_test_count": 12,
+    "real_record_smoke_test": true,
+    "training_candidate_count": 2,
+    "refit_seeds": 3,
+    "checkpoint_reload": true,
+    "table_export": true,
+    "incomplete_table_guard": true,
+    "note": "Small actual-record CPU pipeline check only; not a full benchmark or paper-result reproduction. No local input records, labels, predictions or weights belong in the release ZIP."
+  },
+  "mmcows_pipeline": {
+    "passed": true,
+    "raw_record_input_validation": true,
+    "one_nested_outer_fold": true,
+    "inner_folds": 3,
+    "learning_rate_candidates": 2,
+    "refit_seeds": 3,
+    "all_BSCG_variants_train_and_predict": true,
+    "full_benchmark": false,
+    "ablation_schedule_inheritance_checked": true
+  },
+  "validation_scope": "Executed functional checks only; not a full benchmark, final-paper-result replay, GPU reproducibility guarantee or evidence of biological effectiveness."
+}

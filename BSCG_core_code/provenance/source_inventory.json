@@ -1,0 +1,35 @@
+{
+  "scope": "Code lineage only; these source files and their datasets are not distributed. Current implementation is a manuscript-aligned reimplementation, not a recovered final-run snapshot.",
+  "sources": [
+    {
+      "relative_source_file": "CowBase_外部验证_v1_20261025/models.py",
+      "sha256": "af8b35b48e329aab811977104fd7e12db2eba99dfa3c62bbc499997716fb4f72",
+      "role": "Recovered runnable development architecture; differs from manuscript in gated readout/local summary."
+    },
+    {
+      "relative_source_file": "CowBase_外部验证_v1_20261025/run_experiment.py",
+      "sha256": "99d442cfc9423783d89a5f0529c813571f3296e8f0adb337720e0b9e9a2016a2",
+      "role": "Training/selection/prediction development lineage; refactored rather than copied."
+    },
+    {
+      "relative_source_file": "CowBase_外部验证_v1_20261025/prepare_data.py",
+      "sha256": "39d73fcbbf19e73b1ce6cc2b3d07eedb3b8bcbeacbdadcc197b573ed8c747372",
+      "role": "Source-time task and temporal/hash split rules inspected; raw-source adapter not distributed."
+    },
+    {
+      "relative_source_file": "A数据_预处理_v1/preprocess_A.py",
+      "sha256": "7575221cf765a89409c4d09b1c5c9ac47e8417c28929307fad0c422e50738264",
+      "role": "Only generic fold-only scaling and sample-local interpolation logic inspected. Generated target handling from that experiment is not reused."
+    }
+  ],
+  "manuscript_sources": [
+    {
+      "label": "BSCG manuscript 修改.docx",
+      "sha256": "c520cfa43cd81e405f14ec00de80007d9add9a29e1755a498f40abb648b9817d"
+    },
+    {
+      "label": "补充材料.docx",
+      "sha256": "5e757c4a6bc2ec041d2ce87aea1e8418d6c94f20830f895add6793fb3b964fba"
+    }
+  ]
+}
